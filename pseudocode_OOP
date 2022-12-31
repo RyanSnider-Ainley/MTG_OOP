@@ -1,0 +1,52 @@
+Class:
+  Card:
+      Getters and Setters for:
+      Name (string)
+      Color (string, enumerate)
+      Mana Value (int)
+      Set (string, enumerate)
+      Card Number (in set) (int)
+      Artist (string, enumerate)
+      Double Sided (boolean)
+      Type (string, enumerate, multiple)
+      Sub-Type (string, enumerate, multiple)
+      Rarity (string, enumerate)
+      Legal (boolean, multiple formats)
+      Legendary (boolean)
+   
+   Creature inherits from Card:
+      Power
+      Toughness
+      Ability
+   
+   Artifact inherits from Card:
+      Equip Cost (int)
+   
+   Enchatment inherits from Card:
+      Saga
+   
+   Instant inherits from Card:
+   
+   Sorcery inherits from Card:
+   
+   Planeswalker inherits from Card:
+      Loyalty
+   
+   Land inherits from Card:
+      Basic (boolean)
+   
+    Location:
+      Deck
+      Hand
+      Grave
+      Exile
+      Field
+    
+    Counter:
+      Loyalty 
+      Plus
+      Minus
+      Shield
+      Poison
+      Bribe
+      etc.
